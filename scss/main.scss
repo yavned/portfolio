@@ -57,6 +57,8 @@ main {
 
   .icons {
     margin-top: 1rem;
+    display: flex;
+    align-items: center;
 
     a {
       padding: 0.4rem;
@@ -65,6 +67,17 @@ main {
         color: $secondary-color;
         @include easeOut();
       }
+      
+      .upwork { 
+        margin-top: 7px;
+        fill: #fff;
+
+        &:hover {
+          fill: $secondary-color;
+          @include easeOut();
+        }
+      }
+   
     }
   }
 
@@ -82,7 +95,7 @@ main {
   grid-gap: 30px;
   grid-template-areas:
     'bioimage bio'
-    'job1 job2';
+    'job1 job1';
   grid-template-columns: repeat(2, 1fr);
 
   .bio-image {

@@ -1,14 +1,14 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Yaroslav Nedilko portfolio website",
+  "description": "Yaroslav Nedilko portfolio",
   "main": "index.js",
   "homepage": "https://github.com/yavned/portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
-  "author": "yaroslav Nedilko",
+  "author": "Yaroslav Nedilko",
   "license": "ISC",
   "dependencies": {
     "gh-pages": "^2.0.1",
